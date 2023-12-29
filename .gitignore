@@ -1,0 +1,128 @@
+
+################
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Build files
+Build/
+build/
+bld/
+Bin/
+bin/
+obj/
+[Oo]utput/
+Debug*/
+Release*/
+x64/
+x86/
+*_build/
+*.sdf
+*.opendb
+*.VC.db
+
+# Dependency directories
+node_modules/
+
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Roslyn cache directories
+*.ide/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Build and Release Folders
+[Bb]uild[Ll]og.*
+[Rr]elease*/
+
+# Ignore compiled binary files in all directories
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore build outputs in all directories
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+bld/
+[Rr]elease*/
+[Dd]ebug*/
+x64/
+x86/
+*_build/
+*.sdf
+*.opendb
+*.VC.db
+
+# Ignore specific files/directories that are generated in solution directories
+**/[Ss]olutionFolderName/[Bb]in/
+**/[Ss]olutionFolderName/[Oo]bj/
+
+# Ignore directories for dependencies in all directories
+node_modules/
+
+# Ignore Visual Studio specific files
+*.user
+*.suo
+*.userprefs
+
+# Add exceptions for specific files that should be tracked
+!**/important_library.dll
+
+
+# Others
+*.cache
+*.bak
+*.swp
+*~
+*.lock
+.vs
+.txt
