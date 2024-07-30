@@ -190,10 +190,7 @@ class EngineSchematicAnalyzer:
 
 
 def main(input_text):
-
-    engine_schematic = input_text
-
-    analyzer = EngineSchematicAnalyzer(engine_schematic)
+    analyzer = EngineSchematicAnalyzer(input_text)
     total_sum = analyzer.calculate_sum_of_part_numbers()
     print(f"Sum of part numbers is {total_sum}")
 
@@ -218,5 +215,4 @@ def test_sum_of_part_numbers():
 
 
 if __name__ == "__main__":
-    # test_sum_of_part_numbers()
     main(input_text)
