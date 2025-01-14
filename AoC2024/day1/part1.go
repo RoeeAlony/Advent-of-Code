@@ -14,7 +14,6 @@ func main() {
 	// setup phase
 	lines, _ := os.ReadFile("input.txt")
 	numberOfRows := bytes.Count(lines, []byte("\n")) + 1
-	fmt.Printf("Number of rows: %d\n", numberOfRows)
 	leftList := make([]int, numberOfRows)
 	rightList := make([]int, numberOfRows)
 	totalDiff := 0

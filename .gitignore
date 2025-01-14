@@ -37,6 +37,7 @@
 *.pdb
 
 # Build files
+stam/
 Build/
 build/
 bld/
