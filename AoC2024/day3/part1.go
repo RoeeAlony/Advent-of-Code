@@ -1,4 +1,3 @@
-/*
 package main
 
 import (
@@ -31,4 +30,3 @@ func main() {
 
 	fmt.Printf("Total sum: %d\n", total)
 }
-*/

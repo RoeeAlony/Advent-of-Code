@@ -14,7 +14,7 @@ type Match struct {
 	Value    int
 }
 
-func main() {
+func part2() {
 	content, err := os.ReadFile("input.txt")
 	if err != nil {
 		panic(err)
